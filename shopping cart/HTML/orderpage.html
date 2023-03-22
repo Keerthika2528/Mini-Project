@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <link rel="stylesheet" href="../CSS/orderpage.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous" referrerpolicy="no-referrer"   />
+      <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+   <p id="calc"></p>
+   <!-- Nav bar ends -->
+   <div id="header">
+      <div class="Navbar">
+         <ul class="list">
+            <a href="#">
+               <li>FLAVOURS</li>
+            </a>
+            <a href="#">
+               <li>BOOK AN EVENT</li>
+            </a>
+            <a href="#">
+               <li>ABOUT</li>
+            </a>
+            <a href="#">
+               <li>RESERVATION</li>
+            </a>
+            <a href="#">
+               <li class="shop_name">COOL STONE</li>
+            </a>
+
+
+         </ul>
+         <div class="user_icon">
+            <i class="fa-solid fa-circle-user"></i> <a href="#">Log In</a>
+         </div>
+         <div class="cart  ">
+            <div class="cart-title">
+               CART ITEMS
+            </div>
+            <div class="cart-content">
+               <!-- <div class="cart-box">
+                  <img src="../IMG/strawberry.webp">
+                  <div class="detail-box">
+                     <div class="cart-icecream-title">
+                        STRAWBERRY
+                     </div>
+                     <div class="price-box">
+                        <div class="cart-price1">
+                           Rs.80
+                        </div>
+                        <div class="cart-price2">
+                           Rs.80
+                        </div>
+                        <input type="number" value="1"class="cart-quantity">
+                     </div>
+                     
+          
+                  </div>
+                  <i class="fa-solid fa-trash" id="cart-remove"></i>
+               </div>
+               <div class="cart-box">
+                  <img src="../IMG/strawberry.webp">
+                  <div class="detail-box">
+                     <div class="cart-icecream-title">
+                        STRAWBERRY
+                     </div>
+                     <div class="price-box">
+                        <div class="cart-price1">
+                           Rs.80
+                        </div>
+                        <div class="cart-price2">
+                           Rs.80
+                        </div>
+                       
+                           <input type="number" value="1"class="cart-quantity">
+                    
+                     </div>
+                    
+
+                     
+                  </div>
+                  <i class="fa-solid fa-trash" id="cart-remove"></i>
+               </div> -->
+            </div>
+               <div class="total">
+                  <div class="total-title"> TOTAL</div>
+                     <div class="total-price">
+                      Rs:0
+                    
+                  </div>
+
+               </div>
+               <button class="btn-order"> Place Order</button>
+               <i class="fa-regular fa-circle-xmark" id="wrong-icon"></i>
+            </div>
+
+         </div>
+         
+
+    
+   </div>
+   <!-- Nav bar ends-->
+   <hr>
+   <!-- flavour item  starts -->
+   <div class="flavors">
+      <div class="header">
+         <h1>FLAVORS</h1>
+
+      </div>
+
+      <div >
+         <h1 class="cart_counter">0</h1>
+
+          <i class="fa-solid fa-cart-shopping" id="cart_icon" ></i>
+         
+         </div>
+   </div>
+   <hr>
+   <!-- flavour item  ends -->
+   <!-- body content starts -->
+   <div class="container">
+      <div id="menu">
+         <div id="flavor">
+            <div class="pic">
+               <img src="../IMG/strawberry.webp"class="food-img">
+
+            </div>
+            <h2 class="item">STRAWBERRY</h2>
+            <span class="price" style="font-size: 20px;">Rs.80</span>
+            <i class="fa-solid fa-cart-shopping" id="cart"></i>
+
+         </div>
+         <div id="flavor">
+            <div class="pic">
+               <img src="../IMG/chocolate.webp" class="food-img">
+
+            </div>
+            <h2 class="item">CHOCOLATE</h2>
+            <span class="price" style="font-size: 20px;">Rs.80</span>
+            <i class="fa-solid fa-cart-shopping" id="cart"></i>
+
+         </div>
+         <div id="flavor">
+            <div class="pic">
+               <img src="../IMG/vanilla.webp" class="food-img">
+
+            </div>
+            <h2 class="item">VANILLA</h2>
+            <span class="price" style="font-size: 20px;">Rs.90</span>
+            <i class="fa-solid fa-cart-shopping" id="cart"></i>
+
+         </div>
+         <div id="flavor">
+            <div class="pic">
+               <img src="../IMG/cherry.webp"class="food-img">
+
+            </div>
+            <h2 class="item">CHERRY</h2>
+            <span class="price" style="font-size: 20px;">Rs.80</span>
+            <i class="fa-solid fa-cart-shopping" id="cart"></i>
+
+         </div>
+         <div id="flavor">
+            <div class="pic">
+               <img src="../IMG/caramal.webp"class="food-img">
+
+            </div>
+            <h2 class="item">CARAMEL</h2>
+            <span class="price" style="font-size: 20px;">Rs.90</span>
+            <i class="fa-solid fa-cart-shopping" id="cart"></i>
+
+         </div>
+         <div id="flavor">
+            <div class="pic">
+               <img src="../IMG/hazelnut.webp"class="food-img">
+
+            </div>
+            <h2 class="item">HAZELNUT</h2>
+            <span class="price" style="font-size: 20px;">Rs.90</span>
+            <i class="fa-solid fa-cart-shopping" id="cart"></i>
+
+         </div>
+      </div>
+   </div>
+   <!-- body content ends -->
+
+   <script src="../JS/home.js">
+
+   </script>
+</body>
+
+</html>

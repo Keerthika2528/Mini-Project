@@ -1,0 +1,264 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color:aliceblue;
+
+}
+/* Nav bar  */
+#header .Navbar{
+ 
+    height: 100px;
+    width: 100%;
+   
+    
+}
+#header .Navbar .list{
+    display: flex;
+    margin-top: 0px;
+    
+}
+
+#header .Navbar .list li{
+    padding: 15px;
+    list-style: none;
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+    transition: transform 1s ease-out;
+  
+}
+#header .Navbar .list a{
+    text-decoration: none;
+}
+#header .Navbar .list li:hover{
+    color: blueviolet;
+    transform: scale(1.09);
+}
+#header .Navbar .list .shop_name{
+    font-style: italic;
+    font-family: 'Shrikhand', cursive;
+    padding: 0px;
+   
+    font-size:40px;
+    position: relative;
+    top:5px;
+    left:180px;
+}
+
+#header .Navbar .user_icon{
+    font-size:x-large;
+    font-weight: bold;
+    text-align: right;
+    position: absolute;
+    right: 70px;
+    top:20px;
+}
+#header .Navbar .user_icon a{
+    text-decoration: none;
+    color: black;
+    
+
+}
+/* Nav bar  */
+/* flavour item  starts */
+.flavors{
+    display: flex;
+    margin: auto;
+    max-width: 1200px;
+    text-align: right;
+    justify-content:space-around;
+    
+}
+.flavors .header h1{
+    font-size:50px ;
+    transition: 1s;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+    
+}
+.flavors .header h1:hover{
+    color: blueviolet;
+    transform: scale(1.09);
+}
+#cart{
+    position: relative;
+    left: 100px;
+    font-size: 20px;
+    cursor: pointer;
+ 
+    
+}
+.cart_counter {
+    font-size: 25px;
+    margin-bottom: 0px;
+    position: relative;
+    left:35px;
+    top:30px;
+    text-align: center;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    z-index:-1;
+}
+ #cart_icon{
+    font-size: 30px;
+   
+    position: relative;
+    top:45px;
+ 
+    
+}
+.container{
+    max-width:50%;
+    margin: auto;
+    padding: 20px;
+    
+    
+}
+#flavor {
+   
+  padding: 30px;
+  margin: 10px;
+  border: 0.02px rgb(209, 225, 225) solid;
+  box-shadow: 2px 2px 3px rgb(209, 225, 225),-2px -2px 3px rgb(209, 225, 225);
+  
+    
+}
+#flavor .pic img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: relative;
+  right: 13px;
+   
+}
+
+
+#menu{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,auto));
+    
+}
+.pic:hover img{
+    transform: scale(1.2);
+}
+.pic img{
+    transition:0.5s;
+}
+.cart{
+    position: fixed;
+    top:0px;
+    right: -100%;
+    width:300px;
+    height:100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding: 20px;
+    background-color: antiquewhite;
+    box-shadow: 0 1px 5px rgb(231, 66, 231);
+}
+.cart-active{
+right: 0;
+transition: 0.5s;
+}
+.cart-title{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.cart-box{
+  
+ display: flex;
+ padding: 20px;
+ margin-top: 15px;
+ padding-top: 20px;
+ border: 0.1px solid palevioletred;
+
+  
+
+
+   
+    
+}
+.price-box .cart-price1{
+    padding-top: 5px;
+    
+}
+.price-box .cart-price2{
+    padding-top:5px;
+}
+.cart-icecream-title{
+     font-family: Arial, Helvetica, sans-serif;
+        font-weight: 500;
+        color: crimson;
+}
+.cart-title{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: crimson;
+}
+#cart-remove{
+font-size: 15px;
+padding:10px;
+cursor: pointer;
+color:chocolate
+
+
+
+}
+#cart-remove:hover{
+    
+    color: red;
+}
+.cart-box img{
+    width: 100px;
+    height: 100px;
+    margin-top: 0px;
+    padding-top: 0px;
+    margin-right: 20px;
+    border: 0.1px solid palevioletred;
+    padding:5px;
+    border-radius: 10px;
+    
+}
+.cart-quantity{
+width: 30px;
+text-align: center;
+
+
+
+}
+
+.total{
+display: flex;
+justify-content: end;
+margin-top: 15px;
+
+
+}
+.total-title{
+    font-weight: bold;
+    padding-right: 3px;
+}
+.btn-order{
+padding: 10px;
+background-color: crimson;
+color: white;
+font-weight: 15px;
+
+}
+.btn-order:hover{
+
+    background-color:firebrick;
+    color: white;
+}
+#wrong-icon{
+ font-size: 25px;
+ position: absolute;
+ top:18px;
+right: 8px;
+cursor: pointer;
+color: crimson;
+}
+/* flavour item  ends */
